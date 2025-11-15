@@ -4,11 +4,13 @@ This project demonstrates how a single qubit can enter a state of superposition 
 Superposition allows a qubit to exist in both |0⟩ and |1⟩ at the same time until measured.
 
 ### Quantum Circuit
-q0 ──H───■───
-        │
-c0 <────■────
+
+q0 ──H───■───  
+        │  
+c0 <────■────  
 
 ### Code (Qiskit)
+
 from qiskit import QuantumCircuit, Aer, execute
 
 # Create a 1-qubit circuit with 1 classical bit
@@ -29,12 +31,15 @@ print("Measurement results:", counts)
 qc.draw('mpl')
 
 ### Expected Output
+
 Approximately 50% |0⟩ and 50% |1⟩  
-Example:
+Example:  
 {'0': 520, '1': 504}
 
 ### What You Learn
+
 - How qubits differ from classical bits  
 - How the Hadamard gate works  
 - How measurement collapses a quantum state  
-- How to simulate quantum circuits using Qiskit
+- How to simulate quantum circuits using Qiskit  
+
