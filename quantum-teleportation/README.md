@@ -15,7 +15,7 @@ Teleport the unknown state:
 
 |ψ> = α|0⟩ + β|1⟩
 
-from **Alice** to **Bob** using:
+from **Ameena** to **Badr** using:
 - 3 qubits  
 - 2 classical bits  
 - Entanglement + measurement + classical messages  
@@ -24,16 +24,16 @@ from **Alice** to **Bob** using:
 
 ##  Circuit Overview
 
-Q0 → the unknown state (Alice)  
-Q1 → Alice’s half of the entangled pair  
-Q2 → Bob’s half of the entangled pair  
+Q0 → the unknown state (Ameena)  
+Q1 → Ameena's half of the entangled pair  
+Q2 → Badr's half of the entangled pair  
 
 Steps:
-1. Alice prepares |ψ>  
+1. Ameena prepares |ψ>  
 2. Create entanglement between Q1 and Q2  
-3. Alice performs Bell-state measurement  
+3. Ameena performs Bell-state measurement  
 4. Send measurement results to Bob (classical)  
-5. Bob applies X / Z gates to reconstruct |ψ> exactly  
+5. Badr applies X / Z gates to reconstruct |ψ> exactly  
 
 ---
 
