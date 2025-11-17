@@ -81,11 +81,8 @@ print(counts)
 
 ---
 
-##  Expected Output
+## Output
 
-You should see Bob’s qubit in the **same distribution** as the original state |ψ>.
-
-Example output:
 
 ```
 {'001': 260, '111': 252, '101': 256, '011': 256}
