@@ -95,15 +95,6 @@ Your exact values may differ because of randomness.
 
 ---
 
-##  Why This Project Is Impressive
-
-- Demonstrates real quantum communication  
-- Uses entanglement + classical bits  
-- Shows understanding of Bell measurement  
-- Advanced project for GitHub and academic applications  
-- Perfect for KFUPM Master of Quantum Computing portfolio  
-
----
 
 ##  Requirements
 
@@ -115,7 +106,3 @@ pip install qiskit
 
 ---
 
-##  Conclusion
-
-This project demonstrates a fully working **Quantum Teleportation Protocol** using Qiskit.  
-It’s one of the most important protocols in quantum information science and a great addition to a professional portfolio.
